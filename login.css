@@ -1,0 +1,72 @@
+form{
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding:24px;
+    width: 300px;
+    
+    border-radius: 8px;
+    box-shadow: 0 5px 5px #aaa;
+}
+body{
+    background-color: lightskyblue;
+    background-image: url('https://image.shutterstock.com/image-illustration/3d-illustration-musical-notes-signs-260nw-761313844.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button{
+    color: white;
+    font-size: 24px;
+    background-color: darkblue;
+    border-radius: 4px;
+    padding: 8px;
+    cursor:pointer;
+    border-radius: 8px;
+    width: 100%;
+    
+}
+.button:focus{
+    background-color: rgb(0,0,255,1);
+}
+.button:hover{
+    background-color: darkviolet;
+    color: white;
+    
+}
+.buttondiv{
+    padding-top: 16px;
+    
+}
+.input-item{
+    
+    padding-bottom: 12px;
+    margin-bottom: 36px;
+    width: 100%;
+    font: 24px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.input-item:focus{
+    background-color:lightyellow;
+}
+.header{
+    font-style: italic;
+    
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 16px;
+    font-size: 36px;
+    
+}
+
+
+.input{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+}
